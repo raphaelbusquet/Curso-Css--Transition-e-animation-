@@ -1,0 +1,42 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+   
+}
+
+.box-red {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.box-green {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+
+.box-red {
+    background-color: #f00;
+    transition: all 0.3s ease-in .1s;
+}
+
+.box-green {
+    background-color: rgb(17, 207, 106);
+    transition: all 0.3s ease-in .1s;
+}
+
+.box-red:hover {
+    background-color: yellow;
+    transition-property: background-color, width;
+    transition-duration: .3s;
+    width: 200px;
+}
